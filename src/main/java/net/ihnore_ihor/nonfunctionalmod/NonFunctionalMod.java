@@ -1,4 +1,4 @@
-package com.ihnore_ihor.nonfunctionalmod;
+package net.ihnore_ihor.nonfunctionalmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
