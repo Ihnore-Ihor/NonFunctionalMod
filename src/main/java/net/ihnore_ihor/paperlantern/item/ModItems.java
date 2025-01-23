@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> LANTERN = ITEMS.register("lantern",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLUE_LANTERN = ITEMS.register("blue_lantern",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -51,6 +51,7 @@ public class PaperLantern {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
             event.accept(ModItems.LANTERN);
+            event.accept(ModItems.BLUE_LANTERN);
         }
     }
 
