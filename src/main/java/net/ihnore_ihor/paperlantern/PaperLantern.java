@@ -49,7 +49,7 @@ public class PaperLantern {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        if(event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
             event.accept(ModItems.LANTERN);
         }
     }
