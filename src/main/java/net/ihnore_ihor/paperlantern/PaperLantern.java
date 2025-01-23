@@ -1,4 +1,4 @@
-package net.ihnore_ihor.nonfunctionalmod;
+package net.ihnore_ihor.paperlantern;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -12,15 +12,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(NonFunctionalMod.MODID)
-public class NonFunctionalMod {
+@Mod(PaperLantern.MODID)
+public class PaperLantern {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "nonfunctionalmod";
+    public static final String MODID = "paperlantern";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public NonFunctionalMod(FMLJavaModLoadingContext context) {
+    public PaperLantern(FMLJavaModLoadingContext context) {
 
     }
 
